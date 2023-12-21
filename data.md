@@ -11,8 +11,6 @@ At present, with the development of machine learning algorithms. More predictive
 
 Given the client’s historical behaviors, the bank can identify whether this client is a risky customer that tends to pay late billing. Combining this information with the corresponding application, the bank can make a better decision on credit card application to reduce the number of risky customers. Usually, users in risk should be 3%, so the imbalance data is a big problem. 
 
-In this project, we already identify the risky customers (target=1) and the non-risky customers (target=0) based on the historical data. Specifically, the customers with target=1 are the customers who have at least one overdue payment for more than 60 days. We also modify the data to make the risky ratio at around 10%.
-
 The goal is to build a model to predict whether the application should be approved (non-risky customer, target=0) or not (risty customer, target=1).
 
 
